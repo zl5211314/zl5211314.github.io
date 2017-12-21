@@ -1,0 +1,218 @@
+html, body {
+      position: relative;
+      height: 100%;
+    }
+::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide:nth-child(1){
+      text-align: center;
+      font-size: 18px;
+      background: #000;
+        color:#fff;
+        background-image: url(../img/4.gif);
+        background-size: 100% 100%;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-slide{
+    text-align: center;
+      font-size: 18px;
+      background: #000;
+        color:#fff;
+        background-image: url(../img/4.gif);
+        background-size: 100% 100%;
+}
+
+        .btn-audio{
+            position: relative;
+            top:-95%;
+            left:90%;
+            width: 30px;
+            height: 30px;
+            background:url(../img/2.png) no-repeat center bottom;
+            background-size:cover;
+            z-index: 1;
+            animation: dong 1s infinite linear;
+        }
+        .btn-audio:hover{
+            cursor: pointer;
+        }
+        
+        
+        
+        @keyframes dong{
+            0%   {transform:rotate(0deg)}
+            100% {transform:rotate(360deg)}
+        }
+.simg img{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 30%;
+}
+.spans span{
+    color:#d9cbef;
+    margin-bottom: 5px;
+    display: block;
+    text-shadow: 2px 2px #0c0487;
+}
+.one{
+    position: relative;
+    top:7%;
+    margin-left: -10px;
+}
+.one span{
+    font-size: 14px;
+}
+.one .font{
+    position:relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.font p{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.font1{
+    width: 88%;
+    font-family: cursive;
+    margin: 0 auto;
+    
+}
+.font1 img{
+    width: 90%;
+    margin-top: 5%;
+}
+.bord{
+    border:3px solid #5400ff;
+     width: 85%;
+    height: 85%;
+    margin: auto;
+}
+.border{
+    background:rgba(0,6,16,0.78);
+    border:1px solid #001ec5;
+    width: 80%;
+    height: 90%;
+    margin:10% auto;
+    font-family: cursive;
+    text-align: center;
+    font-size: 4vw;
+    
+}
+.third-top{
+    background:rgba(0,6,16,0.78);
+    width: 80%;
+    margin:15% auto;
+    border:2px solid #5400ff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: cursive;
+}
+.third-top ul{
+    margin:0;
+    display: inline;
+    
+}
+.third-top li{
+    list-style: none;
+    font-size: 18px;
+    font-family: cursive;
+    margin-bottom: 6%;
+}
+.forth{
+    font-family: cursive;
+    margin-top: 20%;
+    border: 2px solid #5400ff;
+    background:rgba(0,6,16,0.78);
+    width: 72%;
+    margin:15% auto;
+    padding:7%;
+    position: relative;
+}
+.forth p{
+    text-align: left;
+}
+.forth p img{
+    width: 30%;
+    border: 1px solid #fff;
+   float: left;
+    margin-right: 10%;
+}
+.forth p span{
+    display: inline;
+    margin-top: 20%;
+}
+
+.first{
+    font-family: cursive;
+    margin-top: 20%;
+    background:rgba(0,6,16,0.78);
+    width: 72%;
+    margin:15% auto;
+    padding:10%;
+}
+.first h2{
+    display:inline;
+    margin-left: -25%;
+}
+.first .bian{
+    display: inline;
+    float: left;
+    border: 1px solid #5400ff;
+    width: 25%;
+   margin-top: 5%;
+}
+.first .bian1{
+    display: inline;
+    border: 1px solid #5400ff;
+    width: 25%;
+    margin-top: -5%;
+    float: right;
+}
+ #allmap{height:200px;width:100%;border: 2px solid #5400ff;}
+.first-font{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.first-font1{
+    margin-bottom: 5%;
+}
+.first-font1 img{
+    width: 10%;
+}
+.first-font span{
+    font-size: 16px;
+}
+
+
+
+
+
